@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
     <head>
         <meta name="author" content="Noah Todd">
         <link rel="stylesheet" href="styles.css">
@@ -59,14 +59,14 @@
                 <img src="Images/IMG_2544.jpeg" alt="Kodi" style="width:50%">
                 <img src="Images/IMG_2752.jpeg" alt="Kuma" style="width:50%">
                 <figcaption> These are my two dogs</figcaption>
+            </figure>
             <aside>They are British Labradors</aside>
             <iframe src="https://www.royaltybritishkennels.com/index.asp?Type=B_BASIC&SEC=%7B6D7BB82C-5E38-43DB-BABC-31BEB34FCC81%7D" title="Information about British Labradors"></iframe>
-            </figure>
             <p>Other dogs (resizable!)</p>
             <picture>
                 <source media="(min-width:650px)" srcset="Images/small_dog.jpeg">
                 <source media="(min-width:400px)" srcset="Images/big_dog.jpeg">
-                <img src="Images/medium_dog.png" style="width:auto">
+                <img src="Images/medium_dog.png" style="width:auto" alt="medium sized dog">
             </picture>
         </div>
 
@@ -98,7 +98,7 @@
             <br>
             <fieldset>
                 <legend>Courses:</legend>
-                <label for="cars">Choose your favorite class:</label>
+                <label>Choose your favorite class:</label>
                 <select name="classes">
                     <optgroup label="ECE Courses">
                         <option value="ECE35">ECE 35</option>
@@ -111,38 +111,38 @@
                         <option value="CSE110">CSE 110</option>
                     </optgroup>
                 </select>
-                <label for="leastfav"> Least Favorite Class? </label>
+                <label> Least Favorite Class? </label>
                 <input type="text">
                 <br>
             </fieldset>
 
             <br>
-            <label for="fun"> Having fun? </label>
-            <input type="radio"> Yes </input>
+            <label> Having fun? </label>
+            <input type="radio"> Yes
             <br>
-            <label for="month"> What month is it? </label>
+            <label> What month is it? </label>
             <input type="month">
             <br>
-            <label for="color"> What is your favorite color? </label>
+            <label> What is your favorite color? </label>
             <input type="color">
             <br> 
-            <label for="pwd"> What is your password? </label>
+            <label> What is your password? </label>
             <input type="password">
             <br> 
-            <label for="pwd"> What is the best number? </label>
+            <label> What is the best number? </label>
             <input type="number">
             <br>  
-            <label for="pwd"> Thoughts on ranges? </label>
+            <label> Thoughts on ranges? </label>
             Hate them<input type="range">Love them
             <br>  
-            <label for="pwd"> Please check the box (ignore the legal ramifications) </label>
+            <label> Please check the box (ignore the legal ramifications) </label>
             <input type="checkbox">
             <br> 
             
             <textarea rows="4" cols="50"> Let me know if you had fun (say yes) </textarea>
             <br>
 
-            <label for="dogs">Choose your favorite dog from the list:</label>
+            <label">Choose your favorite dog from the list:</label>
             <input list="dogs" name="dog" id="dog">
             <datalist id="dogs">
                 <option value="Labrador">
