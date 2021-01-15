@@ -75,6 +75,7 @@
         </audio>
         <br>
         Silly dog tiktok
+        <br>
         <video width="480" height="720" controls>
             <source src="OtherContent/tiktok.mp4" type="video/mp4">
         </video>
@@ -82,13 +83,131 @@
         <canvas id="emptyCanvas">
             Don't have access to CSS so it's going to be blank
         </canvas>
-
+        <br>
         Small fun circle
         <svg width="200" height="200">
             <circle cx="100" cy="100" r="50" stroke="black" stroke-width="4" fill="blue" />
           </svg>
-
         <br>
+        
+        <h1> Here's a form: </h1>
+        <form> 
+            <br>
+            <br>
+            <fieldset>
+                <legend>Courses:</legend>
+                <label for="cars">Choose your favorite class:</label>
+                <select name="classes">
+                    <optgroup label="ECE Courses">
+                        <option value="ECE35">ECE 35</option>
+                        <option value="ECE65">ECE 65</option>
+                        <option value="ECE101">ECE 101</option>
+                    </optgroup>
+                    <optgroup label="CSE Courses">
+                        <option value="CSE8A">CSE 8A</option>
+                        <option value="CSE100">CSE 100</option>
+                        <option value="CSE110">CSE 110</option>
+                    </optgroup>
+                </select>
+                <label for="leastfav"> Least Favorite Class? </label>
+                <input type="text">
+                <br>
+            </fieldset>
+
+            <br>
+            <label for="fun"> Having fun? </label>
+            <input type="radio"> Yes </input>
+            <br>
+            <label for="month"> What month is it? </label>
+            <input type="month">
+            <br>
+            <label for="color"> What is your favorite color? </label>
+            <input type="color">
+            <br> 
+            <label for="pwd"> What is your password? </label>
+            <input type="password">
+            <br> 
+            <label for="pwd"> What is the best number? </label>
+            <input type="number">
+            <br>  
+            <label for="pwd"> Thoughts on ranges? </label>
+            Hate them<input type="range">Love them
+            <br>  
+            <label for="pwd"> Please check the box (ignore the legal ramifications) </label>
+            <input type="checkbox">
+            <br> 
+            
+            <textarea rows="4" cols="50"> Let me know if you had fun (say yes) </textarea>
+            <br>
+
+            <label for="dogs">Choose your favorite dog from the list:</label>
+            <input list="dogs" name="dog" id="dog">
+            <datalist id="dogs">
+                <option value="Labrador">
+                <option value="German Shepherd">
+                <option value="Corgi">
+                <option value="Chihuahua">
+                <option value="Cat">
+            </datalist>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <details>
+            <summary>Mystery table inside!</summary>
+            <table>
+                <caption> Table of how many times I've gone outside in the past week </caption>
+                <colgroup>
+                <col span="2" style="background-color:antiquewhite">
+                </colgroup>
+                <tr>
+                <th>Day</th>
+                <th>Number of Times I Went Outside</th>
+                </tr>
+                <tr>
+                <td>Monday</td>
+                <td>0</td>
+                </tr>
+                <tr>
+                <td>Tuesday</td>
+                <td>0</td>
+                </tr> 
+                <tr>
+                <td>Wednesday</td>
+                <td>0</td>
+                </tr> 
+                <tr>
+                <td>Thursday</td>
+                <td>0</td>
+                </tr> 
+                <tr>
+                <td>Friday</td>
+                <td>0</td>
+                </tr> 
+                <tr>
+                <td>Saturday</td>
+                <td>0</td>
+                </tr> 
+                <tr>
+                <td>Sunday</td>
+                <td>0</td>
+                </tr> 
+            </table>
+            <h3> In retrospect I don't go outside </h3>
+        </details>
+        <br>
+
+        <button type="button" onclick="alert('You couldn\'t listen to instructions, could you?')">DO NOT CLICK</button>
+ 
+        <!--- when we get to use JS, i want to build this into the button above-->
+        <template>
+            <h3>You couldn't listen to instructions, could you? </h3>
+        </template>
+          
+          
+
+
+
         <hr>
         <footer>
             <strong>Some of my favorite UCSD resources</strong>
