@@ -12,7 +12,7 @@
         <main>
             <h1 id="title"> Noah Todd's User Page </h1>
         </main>
-        <h2 class="intro"> Who I am </h2>
+        <h2 class="intro" id="sticky"> Who I am </h2>
         <section class="professional">
             <header class="professional"> <h3 class="intro" id="prof_edition"> Professional Edition of Who I am</h3> </header>
             <p> I'm a third year Computer Engineering major with a minor in Chinese Studies. 
@@ -57,17 +57,17 @@
             <h3 class="intro"> Free time Edition of Who I am </h3>
             <p> I enjoy spending time with friends <em>(virtually, for the time being)</em> and my two dogs* (pictures below). </p>
             <figure>
-                <img src="Images/IMG_2544.jpeg" alt="Kodi" style="width:50%">
-                <img src="Images/IMG_2752.jpeg" alt="Kuma" style="width:50%">
+                <img class="mydogs" src="Images/IMG_2544.jpeg" alt="Kodi" style="width:50%">
+                <img class="mydogs" src="Images/IMG_2752.jpeg" alt="Kuma" style="width:50%">
                 <figcaption> These are my two dogs</figcaption>
             </figure>
             <aside>They are British Labradors</aside>
-            <iframe src="https://www.royaltybritishkennels.com/index.asp?Type=B_BASIC&SEC=%7B6D7BB82C-5E38-43DB-BABC-31BEB34FCC81%7D" title="Information about British Labradors"></iframe>
+            <iframe id="labrador" src="https://www.royaltybritishkennels.com/index.asp?Type=B_BASIC&SEC=%7B6D7BB82C-5E38-43DB-BABC-31BEB34FCC81%7D" title="Information about British Labradors"></iframe>
             <p>Other dogs (resizable!)</p>
             <picture>
                 <source media="(min-width:650px)" srcset="Images/small_dog.jpeg">
                 <source media="(min-width:400px)" srcset="Images/big_dog.jpeg">
-                <img src="Images/medium_dog.png" style="width:auto" alt="medium sized dog">
+                <img id="image" src="Images/medium_dog.png" style="width:auto" alt="medium sized dog">
             </picture>
         </div>
 
@@ -77,9 +77,9 @@
             <source src="OtherContent/barking.mp3" type="audio/mp3">
         </audio>
         <br>
-        Silly dog tiktok
+        <p class="tiktok"> Silly dog tiktok </p>
         <br>
-        <video width="480" height="720" controls>
+        <video id="tiktokvideo" controls>
             <source src="OtherContent/tiktok.mp4" type="video/mp4">
         </video>
 

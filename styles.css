@@ -9,7 +9,13 @@
     text-align: center;
     border-style: dotted;
     border-color:rgb(192, 219, 253);
-    border-width: 4px;
+    border-width: .1em;
+}
+
+#sticky {
+    position: sticky;
+    top: 0;
+    border: 2px solid lightsteelblue;
 }
 
 h2[class="intro"]{
@@ -20,6 +26,8 @@ h2[class="intro"]{
 
 h3.intro {
     text-decoration:underline;
+    text-align: center;
+    position: static;
 }
 
 .intro {
@@ -46,6 +54,14 @@ body section {
     color:hsla(240, 67%, 94%, 0.95);
 }
 
+div.free_time{
+    border-style:solid;
+    border-radius: 5%;
+    margin: 1pc 5pt 10px 5pt;
+    padding: 1rem .5rem 1rem .5rem;
+    text-align: center;
+}
+
 code {
     font-size: large;
     text-decoration: double;
@@ -67,6 +83,41 @@ a:hover {
     color: rgb(80, 120, 251)
 }
 
+a:active {
+    color: rgb(240, 176, 58)
+}
+
+.tiktok {
+    font-size: large;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+#tiktokvideo {
+    margin: auto;
+    width: 600px;
+    height: 720px;
+}
+
+#labrador {
+    display: none;
+}
+
+#image {
+    max-width: 80%;
+    min-width: 20%;
+    align-items: center;
+
+}
+
+img.mydogs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
 
 
 
