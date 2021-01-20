@@ -77,12 +77,13 @@
             <source src="OtherContent/barking.mp3" type="audio/mp3">
         </audio>
         <br>
-        <p class="tiktok"> Silly dog tiktok </p>
-        <br>
-        <video id="tiktokvideo" controls>
-            <source src="OtherContent/tiktok.mp4" type="video/mp4">
-        </video>
-
+        <div class="tiktoksec">
+            <p class="tiktok"> Silly dog tiktok </p>
+            <br>
+            <video id="tiktokvideo" controls>
+                <source src="OtherContent/tiktok.mp4" type="video/mp4">
+            </video>
+        </div>
         <canvas id="emptyCanvas">
             Don't have access to CSS so it's going to be blank
         </canvas>
@@ -90,13 +91,30 @@
         Small fun circle
         <svg width="200" height="200">
             <circle cx="100" cy="100" r="50" stroke="black" stroke-width="4" fill="blue" />
-          </svg>
+        </svg>
         <br>
+
+        <h1 id="flex"> Flex box playplace </h1>
+        <div class="container"> 
+            <div class="item1">First</div>
+            <div class="item1">Second</div>
+            <div class="item1">Third</div>
+        </div>
         
-        <h1> Here's a form: </h1>
+        <h1 id="grid"> Grid playplace </h1>
+        <div class="grid_container">
+            <div class="grid_item">1</div>
+            <div class="grid_item">2</div>
+            <div class="grid_item">3</div>
+            <div class="grid_item">4</div>
+            <div class="grid_item">5</div>
+            <div class="grid_item">6</div>
+          </div>
+        
+
+        <br>
+        <h1 class="form"> Here's a form: </h1>
         <form> 
-            <br>
-            <br>
             <fieldset>
                 <legend>Courses:</legend>
                 <label>Choose your favorite class:</label>

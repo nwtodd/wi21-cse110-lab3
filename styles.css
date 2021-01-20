@@ -1,3 +1,4 @@
+/* Want to have same font and background color throughout */
 * {
     font-family: 'Lato', sans-serif;
     background-color:#5f9ea0;
@@ -40,6 +41,7 @@ h3.intro {
     text-decoration: underline;
 }
 
+/* Entire first block of text to be enclosed */
 body section {
     border-style:solid;
     border-radius: 5%;
@@ -54,6 +56,7 @@ body section {
     color:hsla(240, 67%, 94%, 0.95);
 }
 
+/* Second block of text to be enclosed */
 div.free_time{
     border-style:solid;
     border-radius: 5%;
@@ -120,6 +123,68 @@ img.mydogs {
 }
 
 
+.tiktoksec {
+    border-style:solid;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 10%;
+    color:hsla(240, 67%, 94%, 0.95);    
+}
 
+#flex {
+    text-align: center;
+    text-decoration: underline;
+}
 
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
 
+.item1{
+    flex-grow: 1;
+    background:mediumaquamarine;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    width: 100px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.form {
+    text-align: center;
+    font-size: large;
+}
+
+.grid_container{
+    padding: 5px;
+    background-color:rgb(72, 209, 204, 0.4);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.grid_item {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    background-color:rgb(72, 209, 204, 0.2);
+ }
+
+ @media only screen and (max-width: 800px) {
+    body {
+      background-color: #5eb1b3;
+    }
+  }
