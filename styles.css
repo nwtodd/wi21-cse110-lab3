@@ -1,0 +1,74 @@
+* {
+    font-family: 'Lato', sans-serif;
+    background-color:#5f9ea0;
+    color:hsl(240, 67%, 94%);
+}
+
+#title {
+    font-size: xx-large;
+    text-align: center;
+    border-style: dotted;
+    border-color:rgb(192, 219, 253);
+    border-width: 4px;
+}
+
+h2[class="intro"]{
+    text-decoration:underline;
+    font-size: x-large;
+    color:rgba(240, 255, 240, 0.95);
+}
+
+h3.intro {
+    text-decoration:underline;
+}
+
+.intro {
+    text-align: center;
+    font-size: x-large;
+    color:honeydew;
+}
+
+.intro#prof_edition{
+    text-decoration: underline;
+}
+
+body section {
+    border-style:solid;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0%;
+    color:hsla(240, 67%, 94%, 0.95);
+}
+
+code {
+    font-size: large;
+    text-decoration: double;
+}
+
+section > p {
+    font-size: medium;
+}
+
+p + ol {
+    font-size: small;
+}
+
+p ~ ul {
+    font-size: small;
+}
+
+a:hover {
+    color: rgb(80, 120, 251)
+}
+
+
+
+
+
+

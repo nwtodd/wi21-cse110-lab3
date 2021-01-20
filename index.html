@@ -5,14 +5,16 @@
         <meta name="author" content="Noah Todd">
         <link rel="stylesheet" href="styles.css">
         <title> Noah Todd's User Page </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
-            <h1> Noah Todd's User Page </h1>
+            <h1 id="title"> Noah Todd's User Page </h1>
         </main>
-        <h2> Who I am </h2>
-        <section>
-            <header> <h3> <span>Professional</span> Edition of Who I am</h3> </header>
+        <h2 class="intro"> Who I am </h2>
+        <section class="professional">
+            <header class="professional"> <h3 class="intro" id="prof_edition"> Professional Edition of Who I am</h3> </header>
             <p> I'm a third year Computer Engineering major with a minor in Chinese Studies. 
             </p>
             <p>I would say I lucked out picking the major I have. I took an introductory programming course 
@@ -42,18 +44,17 @@
             <pre>
                 <code>
                     if (!work)
-                    <br>
-                    {<br>
-                        work = true;<br>
-                    }<br>
+                    {
+                        work = true;
+                    }
                 </code>
             </pre>
         </section>
 
         
         
-        <div>
-            <h3> Free time Edition of Who I am </h3>
+        <div class="free_time">
+            <h3 class="intro"> Free time Edition of Who I am </h3>
             <p> I enjoy spending time with friends <em>(virtually, for the time being)</em> and my two dogs* (pictures below). </p>
             <figure>
                 <img src="Images/IMG_2544.jpeg" alt="Kodi" style="width:50%">
