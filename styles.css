@@ -122,6 +122,20 @@ img.mydogs {
     width: 90%;
 }
 
+form {
+    text-align: center;
+    border-style:solid;
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding-top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    color:hsla(240, 67%, 94%, 0.95);
+}
 
 .tiktoksec {
     border-style:solid;
@@ -153,7 +167,7 @@ img.mydogs {
     padding: 5px;
     font-weight: bold;
     font-size: 2em;
-    color: white;
+    color: #fff;
     width: 100px;
     height: 200px;
     line-height: 200px;
